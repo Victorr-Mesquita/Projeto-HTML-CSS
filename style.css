@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url(assets/images/banner.png);
+    background-color: #03151c;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1 {
+        color: #1EA7FD;
+        font-family: 'Monteserrat', sans-serif;
+        text-align: center;
+        font-weight: bold;
+    }
+
+.banner-content p {
+        text-align: center;
+        font-family: 'Monteserrat', sans-serif;
+        word-wrap: break-word;
+        color: white;
+    }
+
+.banner-content button {
+        color: rgb(0, 119, 255);
+        border: 2px solid #007BFF;
+        background-color: transparent;
+        font-family: 'Monteserrat', sans-serif;
+        font-weight: bold;
+        padding: 12px 24px;
+        margin: 20px auto 0;
+        display: block;
+    }
